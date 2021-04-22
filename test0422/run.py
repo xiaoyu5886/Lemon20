@@ -17,7 +17,7 @@ def excute(filename,sheetname,):
         # print(case_id,url,data,expected)
 
         res = api_ful(url=url,data =data)
-        print(res)
+        # print(res)
 
         expected = eval(dict1['expected'])  #获取预期结果的code和msg
         code = expected['code']

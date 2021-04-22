@@ -16,16 +16,16 @@ def excute(filename,sheetname,):
         # print(type(data))
         # print(case_id,url,data,expected)
 
-        result_api = api_ful(url=url,data =data)
-        print(result_api)
+        res = api_ful(url=url,data =data)
+        print(res)
 
         expected = eval(dict1['expected'])  #获取预期结果的code和msg
         code = expected['code']
         msg = expected['msg']
         print("预期结果code: {},msg :{}".format(code,msg))
 
-        real_code = result_api['code']
-        real_msg = result_api['msg']
+        real_code = res['code']
+        real_msg = res['msg']
 
         print("实际结果code: {},msg :{}".format(real_code,real_msg))
 

@@ -1,0 +1,22 @@
+1619019090435	geckodriver	INFO	Listening on 127.0.0.1:63678
+1619019093542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\16506\\AppData\\Local\\Temp\\rust_mozprofileqkY5LP"
+1619019094234	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619019099075	Marionette	INFO	Listening on port 63691
+1619019099503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619021032359	Marionette	INFO	Stopped listening on port 63691
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\16506\\AppData\\Local\\Temp\\rust_mozprofilerEBZC4"
+1619019149254	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619019153747	Marionette	INFO	Listening on port 63848
+1619019154056	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://erp.lemfix.com/js/layer/3.1/layer.js, line 1173: unreachable code after return statement
+JavaScript warning: http://erp.lemfix.com/js/layer/3.1/layer.js, line 1173: unreachable code after return statement
+JavaScript warning: http://erp.lemfix.com/js/layer/3.1/layer.js, line 1173: unreachable code after return statement
+1619021033259	Marionette	INFO	Stopped listening on port 63848
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

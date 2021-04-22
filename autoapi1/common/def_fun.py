@@ -76,4 +76,4 @@ def excute(filename,sheetname,):
         print('-' * 100)
 
 # excute('C:\\tool\\python_workspacea\\test1\\testdata\\test_case_api.xlsx','register')
-excute('C:\\tool\\python_workspacea\\test1\\testdata\\test_case_api.xlsx','login')
+excute('C://tool//python_workspacea//test1//testdata\\test_case_api.xlsx','login')

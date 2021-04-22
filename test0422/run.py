@@ -40,4 +40,4 @@ def excute(filename,sheetname,):
 
         print('-' * 100)
 
-excute('C:\\tool\\python_workspacea\\test0422\\testdata\\test_case_api.xlsx','register')
+excute('C:\\Users\\16506\\.jenkins\\workspace\\Test0422\\test0422\\testdata\\test_case_api.xlsx','register')
